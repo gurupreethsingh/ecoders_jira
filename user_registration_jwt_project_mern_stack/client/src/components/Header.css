@@ -1,0 +1,16 @@
+/* Header.css */
+
+.header {
+  background-color: #f8f9fa; /* Light gray background color */
+  color: #343a40; /* Dark gray text color */
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+.header a {
+  text-decoration: none; /* Remove default underline from links */
+  margin: 0 0.5rem; /* Add margin to separate links */
+}
+
+.header a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

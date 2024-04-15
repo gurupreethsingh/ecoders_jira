@@ -1,0 +1,116 @@
+/* User.css */
+
+/* Style for the sidebar */
+.col-1 {
+    background-color: #f8f9fa; /* Light gray background color */
+    color: #343a40; /* Dark gray text color */
+  }
+  
+  /* Style for the main content area */
+  .col-11 {
+    background-color: #ffffff; /* White background color */
+  }
+  
+  /* Style for the header */
+  .text-decoration-underline {
+    color: #ffffff; /* White text color */
+    background-color: #6a1b9a; /* Dark purple highlighted background color */
+    padding: 0.5rem 1rem; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    display: inline-block; /* Make links display as blocks */
+    text-decoration: none; /* Remove default underline */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* Hover style for the header */
+  .text-decoration-underline:hover {
+    background-color: #7b1fa2; /* Slightly lighter purple highlighted background color on hover */
+  }
+  
+  /* Style for the search input */
+  input[type="search"] {
+    background-color: #f5f5f5; /* Lighter gray background color */
+    border: 1px solid #cccccc; /* Gray border */
+  }
+  
+  /* Style for the settings link */
+  a[href="#"] {
+    color: #ffffff; /* White text color */
+    background-color: #6a1b9a; /* Dark purple background color */
+    border: 1px solid #6a1b9a; /* Dark purple border */
+    padding: 0.5rem 1rem; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    display: inline-block; /* Make links display as blocks */
+    text-decoration: none; /* Remove default underline */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* Hover style for the settings link */
+  a[href="#"]:hover {
+    background-color: #7b1fa2; /* Slightly lighter purple background color on hover */
+  }
+  
+  /* Style for buttons */
+  button {
+    background: linear-gradient(to right, #8e00a3, #8d00a9); /* Purple to blue gradient */
+    border: none; /* Remove default border */
+    color: #ffffff; /* White text color */
+    padding: 0.5rem 1rem; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* Hover style for buttons */
+  button:hover {
+    background: linear-gradient(to right, #d706db, #703cff); /* Blue to purple gradient on hover */
+  }
+
+  .nav-link:hover {
+    color: white !important;
+  }
+  
+  /* Animation for buttons */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply pulse animation to buttons */
+  button {
+    animation: pulse 1.5s infinite; /* Apply pulse animation to buttons */
+  }
+  
+
+  /* User.css */
+
+/* User.css */
+
+.task-box-1 {
+    background: linear-gradient(to right, #ff7eb9, #ff7e7e); /* Gradient background color for the first task box */
+    color: white; /* Text color */
+  }
+  
+  .task-box-2 {
+    background: linear-gradient(to right, #36d1dc, #5b86e5); /* Gradient background color for the second task box */
+    color: white; /* Text color */
+  }
+  
+  .task-box-3 {
+    background: linear-gradient(to right, #ffc107, #ff5733); /* Gradient background color for the third task box */
+    color: white; /* Text color */
+  }
+  
+  .task-box-4 {
+    background: linear-gradient(to right, #c65bde, #ff0055); /* Gradient background color for the fourth task box */
+    color: white; /* Text color */
+  }
+  
+  

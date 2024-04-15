@@ -1,0 +1,15 @@
+
+
+.mainformdiv{
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: flex-start; /* vertically center */
+}
+
+.loginform {
+  border: 1px solid #ced4da; /* Add border */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  padding: 20px; /* Add padding */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
